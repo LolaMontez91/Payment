@@ -1,0 +1,30 @@
+#payment-container{
+/*border: 2px double blue;*/
+text-align: center;
+}
+
+#buttons{
+/*  border:2px double green;*/
+  padding: 60px 10px;
+}
+
+#btnimg{
+  /*border: 2px double purple;*/
+  padding: 10px;
+}
+
+
+#bitcoin{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding: 10px;
+}
+
+#paypal-button-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

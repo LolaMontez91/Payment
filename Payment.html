@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+<meta charset= 'utf-8'>
+<!-- Add meta tags for mobile and IE -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Payments</title>
+
+<!--Custom Css-->
+<link rel='stylesheet' type='text/css' href='Payment.css'>
+
+<!--Bootstrap CSS-->
+<link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+<!--<script src="https://www.paypalobjects.com/js/external/dg.js" type="text/javascript"></script>-->
+</head>
+
+<body>
+
+  <!-- Payment Header-->
+
+  <div class='container' id='payment-container'>
+    <div class='row'>
+      <div class='col-md-12' id='payment-header'>
+        <h2>Please Select A Payment Option</h2>
+      </div>
+    </div>
+  </div>
+
+<!--Paypal and Bitcoin Buttons-->
+
+  <div class='container' id='buttons'>
+    <div class='row'>
+      <div class='col-md-12' id='btnimg'>
+        <!-- Set up a container element for the button -->
+        <div id="paypal-button-container"></div>
+
+        <img src="https://www.bitpay.com/cdn/en_US/currency-mark-btc.svg" alt="Pay with Bitcoin" id='bitcoin' onclick='mybit()'>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!--Paypal Links
+
+  <script src="https://www.paypal.com/sdk/js?client-id=AdNqGzONh_LWKmiaTg-r0vaW3gRNUHyqHmh1wGdkJpUeK_aKEGZJKcUCoSfhNv97ZCC63qOzx1UWYbCb"></script>
+  <script>paypal.Buttons().render('body');</script>-->
+
+
+
+
+  <!-- Include the PayPal JavaScript SDK -->
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
+
+
+
+
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' rel='stylesheet'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js' rel='stylesheet'></script>
+<script src='Payment.js'></script>
+</body>
